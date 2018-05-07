@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SSHCOM</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_terminal">terminal</string>
+    <string name="title_commands">commands</string>
+    <string name="title_prefs">prefs</string>
+
+    <string name="SAVED_COMMANDLIST_FILE">CommmandList</string>
+    <string name="SAVED_PREF_FILE">SavedPreferences</string>
+
+    <string name="PREF_IP">IPPreference</string>
+    <string name="PREF_USERNAME">UsernamePreference</string>
+    <string name="PREF_PASS">PasswordPreference</string>
+    <string name="PREF_PORT">PortPreference</string>
+
+    <string name="SAVE_IP">SavedIP</string>
+    <string name="SAVE_USERNAME">SavedUser</string>
+    <string name="SAVE_PASS">SavedPass</string>
+    <string name="SAVE_PORT">SavedPort</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

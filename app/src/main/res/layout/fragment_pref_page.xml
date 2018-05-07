@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="ryley.sshcom.PrefPage">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/chckIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="35dp"
+            android:text="save IP address on exit"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <CheckBox
+            android:id="@+id/chckUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:text="save username on exit"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/chckIP"
+            app:layout_constraintTop_toBottomOf="@+id/chckIP"/>
+
+        <CheckBox
+            android:id="@+id/chckPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:text="save port on exit"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/chckIP"
+            app:layout_constraintTop_toBottomOf="@+id/chckPass"/>
+
+        <CheckBox
+            android:id="@+id/chckPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:text="save password on exit"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/chckIP"
+            app:layout_constraintTop_toBottomOf="@+id/chckUser"/>
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
